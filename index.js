@@ -46,3 +46,60 @@ const nestedMuppet = {
 // 7. Use destructuring to assign all variables using the keys as the variable names
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+
+const animal_sounds= {
+  moo:'cow',
+  neigh:'horse',
+  baa:'sheep',
+  oink:'pig',
+  cluck:'chicken'
+}
+const moo = animal_sounds.moo
+const neigh = animal_sounds.neigh
+const baa =animal_sounds.baa
+const oink = animal_sounds.oink
+const cluck = animal_sounds.cluck
+
+// const traditionalAnimalNames = 'bessie dolly babe little'
+const traditionalNames= {
+  bessie:'cow',
+  dolly:'sheep',
+  babe:'pig',
+  little:'chicken'
+}
+const bessie = traditionalNames.bessie
+const dolly = traditionalNames.dolly
+const babe = traditionalNames.babe
+const little = traditionalNames.little
+
+const animalcolors = {
+  balckandwhite:'cow',
+  black:'sheep',
+  pink:'pig'
+}
+
+const blackAndWhite = animalcolors.balckandwhite
+const black = animalcolors.black
+const pink = animalcolors.pink
+
+const rainbowColors= ['red', 'orange', 'yellow',  'green', 'blue', 'indigo','violet']
+
+const [red, orange, yellow , green, blue, indigo, violet]=rainbowColors
+
+const initials= ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+const [r, o, y, g, b, v]=initials
+
+const colorindigo=['indigo'] 
+const [indg]=colorindigo
+
+const muppetName=muppet.muppetName
+const color=muppet.color
+const job=muppet.job
+const song=muppet.song
+const partner= muppet.partner
+
+
+const song2=nestedMuppet.album.theMuppetMovie.song2
+const song4=nestedMuppet.album.theMuppetMovie.song4
+const nestedJob=nestedMuppet.nestedJob
+const nestedPartner=nestedMuppet.nestedPartner
